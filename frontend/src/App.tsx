@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import Markdown from "react-markdown";
 import "./App.css";
 
-const API_URL = "http://localhost:8000/chat";
+const API_URL = "https://vitalbioassistant.onrender.com/chat";
 const SESSION_ID = crypto.randomUUID();
 
 interface Message {
